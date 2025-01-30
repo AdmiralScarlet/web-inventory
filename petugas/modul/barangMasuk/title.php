@@ -237,7 +237,7 @@
            <table class="table table-borderless table-striped table-earning">
              <thead>
                <tr>
-
+                 <th>No</th>
                  <th>ID Barang Masuk</th>
                  <th>Tanggal</th>
                  <th>No Invoice</th>
