@@ -29,7 +29,7 @@ while ($row=mysqli_fetch_array($data_rak)) {
  ?>
 
   <tr>
-                                         
+                                                <td><?php echo $nomor++ ?></td>
                                                 <td><?php echo $row['id_petugas']; ?></td>
                                                 <td><?php echo $row['nama']; ?></td>
                                                 <td><?php echo $row['telepon']; ?></td>
