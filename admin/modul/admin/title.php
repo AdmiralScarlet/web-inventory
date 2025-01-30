@@ -140,7 +140,7 @@
              <thead>
                <tr>
                  <th>No</th>
-                 <th>Id Admin</th>
+                 <th>ID Admin</th>
                  <th>Nama</th>
                  <th>Telepon</th>
                  <th>Foto</th>
