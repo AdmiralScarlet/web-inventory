@@ -139,7 +139,7 @@
            <table class="table table-borderless table-striped table-earning">
              <thead>
                <tr>
-
+                 <th>No</th>
                  <th>Id Admin</th>
                  <th>Nama</th>
                  <th>Telepon</th>
