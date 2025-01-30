@@ -217,6 +217,7 @@
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
                                             <tr>
+				 <th>No</th>
                                  <th>No Barang Keluar</th>               
                                  <th>No Ajuan</th>
                                  <th>Tanggal Ajuan</th>
