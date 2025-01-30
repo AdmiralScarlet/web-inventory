@@ -166,6 +166,7 @@
           <table class="table table-borderless table-striped table-earning">
             <thead>
               <tr>
+                <th>No</th>
                 <th>Kode Barang</th>
                 <th>Nama Barang</th>
                 <th>Stok</th>
