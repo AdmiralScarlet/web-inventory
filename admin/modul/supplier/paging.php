@@ -29,7 +29,7 @@ while ($row = mysqli_fetch_array($data_supplier)) {
 ?>
 
     <tr>
-
+        <td><?php echo $nomor++ ?></td>
         <td><?php echo $row['id_sup']; ?></td>
         <td><?php echo $row['nama_sup']; ?></td>
         <td><?php echo $row['kontak_sup']; ?></td>
