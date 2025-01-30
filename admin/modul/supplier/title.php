@@ -136,7 +136,6 @@
           <thead>
             <tr>
               <th>No</th>
-              <th>ID Supplier</th>
               <th>Nama Supplier</th>
               <th>Email Supplier</th>
               <th>Alamat Supplier</th>
