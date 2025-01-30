@@ -2,7 +2,7 @@
 session_start();
 include_once "sesi_admin.php";
 $modul=(isset($_GET['m']))?$_GET['m']:"awal";
-$jawal="Admin || Pury Electronic Test";
+$jawal="Admin || Pury Electronic";
 switch($modul){
     case 'awal': default: $aktif="Beranda"; $judul="Beranda $jawal"; include "awal.php"; break;
     case 'admin': $aktif="Admin"; $judul="$jawal"; include "modul/admin/index.php"; break;
