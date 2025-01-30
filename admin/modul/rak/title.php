@@ -121,10 +121,9 @@
              <thead>
                <tr>
 
+                 <th>No</th>
                  <th>Id Rak</th>
                  <th>Nama Rak</th>
-
-
                  <th>Aksi</th>
 
                </tr>
