@@ -29,6 +29,7 @@ while ($row = mysqli_fetch_array($data_rak)) {
 ?>
 
   <tr>
+    <td><?php echo $nomor++ ?></td>
     <td><?php echo $row['no_brg_out']; ?></td>
     <td><?php echo $row['no_ajuan']; ?></td>
     <td><?php echo $row['tanggal_ajuan']; ?></td>
