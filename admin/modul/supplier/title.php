@@ -135,7 +135,8 @@
         <table class="table table-borderless table-striped table-earning">
           <thead>
             <tr>
-              <th>Id Supplier</th>
+              <th>No</th>
+              <th>ID Supplier</th>
               <th>Nama Supplier</th>
               <th>Email Supplier</th>
               <th>Alamat Supplier</th>
