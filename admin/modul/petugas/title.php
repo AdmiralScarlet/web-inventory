@@ -135,7 +135,7 @@
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
                                             <tr>
-                                                
+                                 <th>No</th>               
                                  <th>ID Karyawan</th>
                                  <th>Nama Karyawan</th>
                                  <th>Telepon Karyawan</th>
