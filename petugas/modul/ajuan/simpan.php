@@ -9,11 +9,11 @@ if(isset($_POST['simpan'])) {
 	$stok	= $_POST['stok'];
 	$jml_ajuan	= $_POST['jml_ajuan'];
 	$petugas		= $_POST['petugas'];
-	$rak = $_POST['rak'];
+	$rak = $_POST['nama_rak'];
 
 
 
-	$sql = "INSERT INTO tb_ajuan SET no_ajuan='$no_ajuan', tanggal='$tanggal', kode_brg='$kode_brg', nama_brg='$nama_brg', stok='$stok', jml_ajuan='$jml_ajuan', petugas='$petugas', rak='$rak', val=1";
+	$sql = "INSERT INTO tb_ajuan SET no_ajuan='$no_ajuan', tanggal='$tanggal', kode_brg='$kode_brg', nama_brg='$nama_brg', stok='$stok', jml_ajuan='$jml_ajuan', petugas='$petugas', rak='$nama_rak', val=1";
 	mysqli_query($koneksi, $sql);
 	if($sql){
 		 //echo '<script>window.history.back()</script>';
