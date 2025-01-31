@@ -196,7 +196,7 @@
                     $hasil = mysqli_query($koneksi, $sql);
                     while ($data = mysqli_fetch_array($hasil)) {
                     ?>
-                      <option value="<?php echo $data['nama_rak']; ?>"><?php echo $data['nama_rak']; ?></option>
+                      <option value="<?php echo $data['rak']; ?>"><?php echo $data['rak']; ?></option>
                     <?php } ?>
                   </select>
                 </div>
