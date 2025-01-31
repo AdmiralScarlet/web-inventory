@@ -18,6 +18,12 @@ $total_halaman = ceil($jumlah_data / $batas);
 $data_brg_in = mysqli_query($koneksi, "SELECT * FROM tb_ajuan LIMIT $halaman_awal, $batas");
 $nomor = $halaman_awal + 1;
 
+$data = mysqli_query($koneksi, "SELECT * FROM tb_rak");
+$jumlah_data = mysqli_num_rows($data);
+$total_halaman = ceil($jumlah_data / $batas);
+
+$data_rak = mysqli_query($koneksi, "SELECT * FROM tb_rak LIMIT $halaman_awal, $batas");
+$nomor = $halaman_awal+1;
 
 
 
