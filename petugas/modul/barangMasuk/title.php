@@ -238,7 +238,6 @@
              <thead>
                <tr>
                  <th>No</th>
-                 <th>ID Barang Masuk</th>
                  <th>Tanggal</th>
                  <th>No Invoice</th>
                  <th>Supplier</th>
