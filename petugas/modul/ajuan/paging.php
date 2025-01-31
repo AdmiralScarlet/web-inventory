@@ -29,7 +29,6 @@ $data_rak_paginated = mysqli_query($koneksi, "SELECT * FROM tb_rak LIMIT $halama
 </head>
 <body>
     <h2>Data Ajuan</h2>
-    <table border="1">
         <tr>
             <th>No Ajuan</th>
             <th>Tanggal</th>
@@ -57,5 +56,4 @@ $data_rak_paginated = mysqli_query($koneksi, "SELECT * FROM tb_rak LIMIT $halama
                 <td><a href="index.php?m=ajuan&s=hapus&no_ajuan=<?php echo $row['no_ajuan']; ?>" onclick="return confirm('Yakin Akan dihapus?')"><button class="btn btn-danger">Hapus</button></a></td>
             </tr>
         <?php } ?>
-    </table>
 </body>
