@@ -187,9 +187,19 @@
                  <div class="form-group">
                    <label for="exampleInputEmail1">Karyawan</label>
                    <input type="text" class="form-control" id="exampleInputEmail1" value="<?php echo $r['nama']; ?>" readonly="" name="petugas" aria-describedby="emailHelp" placeholder="Masukkan Nama Admin">
-
                  </div>
-
+                <div class="form-group">
+                  <label for="rak">Rak</label>
+                  <select class="form-control" name="rak" required>
+                    <?php
+                    $sql = "SELECT * FROM tb_rak";
+                    $hasil = mysqli_query($koneksi, $sql);
+                    while ($data = mysqli_fetch_array($hasil)) {
+                    ?>
+                      <option value="<?php echo $data['nama_rak']; ?>"><?php echo $data['nama_rak']; ?></option>
+                    <?php } ?>
+                  </select>
+                </div>
 
 
              </div>
