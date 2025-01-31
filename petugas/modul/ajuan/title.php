@@ -216,6 +216,7 @@
                  <th>Stok</th>
                  <th>Jumlah Ajuan</th>
                  <th>Karyawan</th>
+                 <th>Rak</th>
                  <th>Val</th>
 
 
