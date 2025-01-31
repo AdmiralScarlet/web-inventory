@@ -37,7 +37,7 @@ while ($row = mysqli_fetch_array($data_brg_in)) {
         <td><?php echo $row['stok']; ?></td>
         <td><?php echo $row['jml_ajuan']; ?></td>
         <td><?php echo $row['petugas']; ?></td>
-        <td><?php echo $row['id_rak']; ?></td>
+        <td><?php echo $row['nama_rak']; ?></td>
 
 
 
