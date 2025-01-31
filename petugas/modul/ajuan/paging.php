@@ -24,23 +24,7 @@ $total_halaman_rak = ceil($jumlah_data_rak / $batas);
 $data_rak_paginated = mysqli_query($koneksi, "SELECT * FROM tb_rak LIMIT $halaman_awal, $batas");
 ?>
 
-<head>
-    <title>Data Ajuan dan Rak</title>
-</head>
 <body>
-    <h2>Data Ajuan</h2>
-        <tr>
-            <th>No Ajuan</th>
-            <th>Tanggal</th>
-            <th>Kode Barang</th>
-            <th>Nama Barang</th>
-            <th>Stok</th>
-            <th>Jumlah Ajuan</th>
-            <th>Petugas</th>
-            <th>Validasi</th>
-            <th>Nama Rak</th>
-            <th>Aksi</th>
-        </tr>
         <?php while ($row = mysqli_fetch_array($data_brg_in)) { ?>
             <tr>
                 <td><?php echo $row['no_ajuan']; ?></td>
