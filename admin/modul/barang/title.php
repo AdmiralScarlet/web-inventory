@@ -280,7 +280,7 @@
 
       // Define the headers for the table (update as per your column names)
       const headers = [
-        ['No', 'Kode Barang', 'Nama Barang', 'Stok', 'Rak', 'Supplier']
+        ['No', 'No ID', 'Kode Barang', 'Nama Barang', 'Stok', 'Rak', 'Supplier']
       ]; // Add 'No' column header
 
       // Use autoTable to render the table in the PDF
